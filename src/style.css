@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Epilogue", " sans-serif";
+}
+
+
+#clients-saying .swiper-slide {
+  max-width: 770px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  border: 1px solid #4e4f6e !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  border: 1px solid #ef6d58 !important;
+  background-color: #ef6d58 !important;
+}
