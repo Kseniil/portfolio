@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Epilogue", " sans-serif";
+}
+
+
+/* #clients-saying */
+#clients-saying .swiper-slide {
+  height: 400px !important;
+  opacity: 0.25;
+  transition: 0.3s;
+}
+
+#clients-saying .swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  border: 1px solid #4e4f6e !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50% !important;
+  border: 1px solid #ef6d58 !important;
+  background-color: #ef6d58 !important;
+}
