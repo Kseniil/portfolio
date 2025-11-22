@@ -7,8 +7,8 @@
   <link href="/src/css/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <title>Portfolio</title>
 </head>
 
@@ -103,23 +103,23 @@
       <div>
         <!-- Видео контейнер -->
         <div class="relative w-[570px] h-[370px]">
-          <video id="video-reel" class="w-full h-full block object-cover rounded" src="/oceans.mp4" poster="/images/play-img.svg"> </video>
+          <video id="video-reel" class="w-full h-full block object-cover rounded" src="/oceans.mp4"
+            poster="/images/play-img.svg"> </video>
 
           <div id="video-reel-overlay">
             <!-- Время поверх видео в левом нижнем углу -->
-          <div class="absolute bottom-5 left-6">
-            <span
-              class="rounded-md w-[47px] h-8 bg-[#570b00]/25 flex items-center justify-center  font-medium text-base leading-[200%] current-time text-white">1:45</span>
-          </div>
-
-          <!-- Кнопка воспроизведения по центру -->
-          <button
-            id="video-reel-btn"
-            class="play-button absolute inset-0 flex items-center justify-center bg-opacity-0 hover:bg-opacity-10 transition-opacity">
-            <div>
-              <img src="/images/icons/play.svg" alt="">
+            <div class="absolute bottom-5 left-6">
+              <span
+                class="rounded-md w-[47px] h-8 bg-[#570b00]/25 flex items-center justify-center  font-medium text-base leading-[200%] current-time text-white">1:45</span>
             </div>
-          </button>
+
+            <!-- Кнопка воспроизведения по центру -->
+            <button id="video-reel-btn"
+              class="play-button absolute inset-0 flex items-center justify-center bg-opacity-0 hover:bg-opacity-10 transition-opacity">
+              <div>
+                <img src="/images/icons/play.svg" alt="">
+              </div>
+            </button>
           </div>
         </div>
       </div>
@@ -249,8 +249,8 @@
   </section>
   <article class="bg-[#f9e5da]">
     <div class="flex justify-between items-center max-w-[1100px] mx-auto pt-[46px] relative">
-      <img class="absolute top-[-5px] left-[65px] inset-1/2 -translate-x-1/2 -translate-y-1/2" src="/images/icons/darek.svg"
-        alt="">
+      <img class="absolute top-[-5px] left-[65px] inset-1/2 -translate-x-1/2 -translate-y-1/2"
+        src="/images/icons/darek.svg" alt="">
       <div class="flex flex-col">
         <p class="font-normal text-[16px] leading-loose tracking-[0.19em] uppercase text-[#ef6d58]">Get Started</p>
         <h4 class="font-bold text-[24px] leading-[133%] text-[#391400] max-w-[217px] pt-[13px]">I Help Companies
@@ -540,7 +540,8 @@
               <img src="/images/people-1.svg" alt="">
             </div>
             <span class="font-normal text-[20px] leading-[160%] text-[#391400] pt-[26px]">Design</span>
-            <a class="font-extrabold text-[24px] leading-[120%] text-[#391400] pt-[15px] max-w-[227px]" href="#">Outsource
+            <a class="font-extrabold text-[24px] leading-[120%] text-[#391400] pt-[15px] max-w-[227px]"
+              href="#">Outsource
               your
               digital marketing efforts</a>
             <span class="font-normal text-[16px] leading-[200%] text-[#806354] pt-[15px]">29 Oct, 2021</span>
@@ -575,7 +576,7 @@
     </div>
   </section>
   <section class="bg-[#28293e]">
-    <div class="w-[1200px] mx-auto flex justify-between pt-44 pb-52">
+    <div class="w-[1200px] mx-auto flex justify-between pt-44 pb-52 gap-[130px] items-center">
       <div class=" bg-white rounded-md max-w-[570px] pt-14  pb-12 px-12 ">
         <span class="font-bold text-[24px] leading-[133%] text-[#391400]">Get In Touch</span>
         <form class="flex flex-col pt-7 gap-4">
@@ -605,17 +606,117 @@
             Now</button>
         </form>
       </div>
-      <div>
-        <span>Contact</span>
-        <h2>Contact Me</h2>
-        <p>A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling
+      <div class="flex flex-col ">
+        <p class="font-normal text-[16px] leading-[200%] tracking-[0.19em] uppercase text-[#ef6d58]">Contact</p>
+        <h2 class="font-extrabold text-[56px] leading-[114%] tracking-[-0.02em] text-white pt-5">Contact Me</h2>
+        <p class="font-normal text-[16px] leading-[200%] text-[#b2b2ba] pt-6">A digital agency is a business you
+          hire to outsource your digital marketing efforts, instead of handling
           in-house.</p>
-        <div>
-          <img src="/images/icons/" alt="">
+        <div class="flex flex-col gap-4 pt-[33px]">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-[#EB6A57] flex items-center justify-center">
+              <img src="/images/icons/Shape.svg" alt="">
+            </div>
+            <span class="font-normal text-[20px] leading-[160%] text-white">2247 Lunetta Street, TX 76301</span>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-[#EB6A57] flex items-center justify-center">
+              <img src="/images/icons/phone.svg" alt="">
+            </div>
+            <a class="font-normal text-[20px] leading-[160%] text-white" href="tel:+12345678900">+1 (234)
+              567-89-00</a>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-full bg-[#EB6A57] flex items-center justify-center">
+              <img src="/images/icons/email.svg" alt="">
+            </div>
+            <a class="font-normal text-[20px] leading-[160%] text-white" href="#">info@agency.com</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="bg-[#fdf0e9]">
+    <div class="w-[1200px] mx-auto flex justify-between pt-[82px] pb-[143px]">
+      <div class="flex flex-col">
+        <p class="font-normal text-[16px] leading-[200%] tracking-[0.19em] uppercase text-[#ef6d58]">Gabriel Pires</p>
+        <h2 class="font-extrabold text-[56px] leading-[114%] tracking-[-0.02em] text-[#391400] pt-9 max-w-[368px]">
+          Help
+          To
+          Build
+          Your Dream
+          Project</h2>
+        <p class="font-normal text-[16px] leading-[200%] text-[#806354] max-w-[444px] pt-7">A digital agency is a
+          business
+          you hire to
+          outsource your digital marketing efforts, instead of handling
+          in-house.</p>
+        <button
+          class="font-black text-[14px] uppercase text-center text-white bg-[#ef6d58] rounded-md max-w-[156px] py-[18px] px-[31px] block mt-[34px]">Contact
+          Me</button>
+      </div>
+      <div>
+        <img src="/images/build-img.svg" alt="">
+      </div>
+    </div>
+    <div class="flex w-full">
+      <img src="/images/Bitmap-1.svg" class="flex-1 w-1/3 h-auto object-cover">
+      <img src="/images/Bitmap-2.svg" class="flex-1 w-1/3 h-auto object-cover">
+      <img src="/images/Bitmap-3.svg" class="flex-1 w-1/3 h-auto object-cover">
+      <img src="/images/Bitmap-4.svg" class="flex-1 w-1/3 h-auto object-cover">
+      <img src="/images/Bitmap-5.svg" class="flex-1 w-1/3 h-auto object-cover">
+      <img src="/images/Bitmap-6.svg" class="flex-1 w-1/3 h-auto object-cover">
+    </div>
+  </section>
+  </main>
+  <footer class="bg-[#28293e]">
+    <div class="w-[1200px] mx-auto flex-wrap flex justify-between pt-[92px] pb-[69px]">
+      <div>
+        <img src="/images/logo.svg" alt="logo">
+      </div>
+      <div class="flex flex-col gap-4">
+        <p class="font-normal text-[16px] leading-[200%] tracking-[0.19em] uppercase text-[#ef6d58]">Menu</p>
+        <ul class="flex flex-col">
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">About</a></li>
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">Services</a></li>
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">Blog</a></li>
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-4">
+        <p class="font-normal text-[16px] leading-[200%] tracking-[0.19em] uppercase text-[#ef6d58]">Service</p>
+        <ul class="flex flex-col">
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">Design</a></li>
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">Development</a></li>
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">Marketing</a></li>
+          <li><a class="font-normal text-[16px] leading-[200%] text-white" href="#">See More</a></li>
+        </ul>
+      </div>
+      <div class="flex items-start gap-2">
+        <div class="w-12 h-12 rounded-full  bg-[#EB6A57] flex items-center justify-center">
+          <img src="/images/icons/facebook.svg" alt="">
+        </div>
+        <div class="w-12 h-12 rounded-full bg-[#EB6A57] flex items-center justify-center">
+          <img src="/images/icons/twitter.svg" alt="">
+        </div>
+        <div class="w-12 h-12 rounded-full bg-[#EB6A57] flex items-center justify-center">
+          <img src="/images/icons/instagram.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="w-[1200px] mx-auto flex-wrap flex justify-between">
+      <hr class="w-full border-0 h-px bg-[#3a3c56]">
+      <div class="flex justify-between gap-[] pt-[43px] pb-[52px] w-full">
+        <p class="font-normal text-[16px] leading-loose text-[#b2b2ba]">Copyright © 2022 Laaqiq. All Rights Reserved.
+        </p>
+        <div class="flex gap-[68px]">
+          <a class="font-normal text-[16px] leading-loose text-[#b2b2ba]" href="#">Terms of Use</a>
+          <a class="font-normal text-[16px] leading-loose text-[#b2b2ba]" href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <script type="module" src="/src/js/main.js"></script>
   <script type="module" src="/src/js/swiper.js"></script>
   <script type="module" src="/src/js/video.js"></script>
